@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Lebih dari coffe</title>
+</head>
+<body>
+  <nav class="flex items-center justify-between container mx-auto p-4">
+    <a href="#" class="flex items-center gap-3">
+      <img src="./images/kopi.png" alt="Coffee Man" class="h-16 rounded-lg">
+      <h2 class="text-4xl font-bold text-black-900"> > LEBIH DARI COFFEE</h2>
+    </a> 
+    <a href="#" class="flex text-red-900 bg-slate-100 hover:bg-slate-200 p-3 rounded-full">
+      <i class="fa-solid fa-cart-shopping fa-1x"></i>
+    </a>
+  </nav>
+  <header class="container mx-auto flex flex-col md:flex-row justify-center items-center py-10 px-4 gap-3 bg-gradient-to-r from-orange-200 to-orange-500">
+    <div class="basis-1/2 space-y-5">
+      <h2 class="text-4xl font-bold text-black-900">Temukan Berbagai Rasa Kopi Premium dengan Kualitas Terbaik</h2>
+      <p class="text-slate-800">Selamat datang di halaman penjualan kopi kami! Kami menawarkan biji kopi berkualitas tinggi dari seluruh dunia, yang diproses dan diolah dengan hati-hati oleh para ahli kopi kami. Kami menyediakan berbagai macam kopi dengan rasa yang unik dan memukau, mulai dari yang lembut hingga yang kuat dan kaya. Kami percaya bahwa setiap orang berhak menikmati kopi berkualitas tinggi tanpa harus membayar harga mahal. Oleh karena itu, kami menawarkan harga yang terjangkau dan pengiriman yang cepat, sehingga Anda dapat menikmati kopi yang lezat dan menyegarkan kapan saja, di mana saja. Jangan ragu untuk menjelajahi berbagai pilihan kopi kami dan temukan favorit Anda!</p>
+      <button id="Pesan Sekarang" class="bg-red-900 text-white px-10 py-3 text-sm rounded">
+        Pesan Sekarang!!!
+      </button> 
+      <script>
+        const tombolSaya = document.getElementById('Pesan Sekarang');
+        tombolSaya.addEventListener('click', function() {
+          alert('Selamat Memesan!');
+        });
+      </script>
+    </div>
+    <div>
+        <img src="https://img.freepik.com/free-vector/poster-template-coffee-shop_157027-1108.jpg">
+    </div>
+  </header>
+  <section class="bg-slate-100">
+    <div class="container mx-auto px-4 py-5 bg-gradient-to-r from-orange-300 to-orange-600">
+      <div class="flex flex-col md:flex-row">
+        <div class="w-full md:w-1/3 text-slate-900 p-3 ">
+          <img src="./images/bn.png" alt="Coffee Beans" class="w-16 mb-4" rounded-lg">
+          <h4 class="font-bold">Beans</h4>
+          <p class="text-sm">Beans Coffee adalah minuman yang di seduh dari biji kopi yang telah disangrai 
+            dan dihaluskan menjadi bubuk. Kopi merupakan salah satu komoditas di dunia yang dibudidayakan
+            lebih dari 50 negara.</p>   
+        </div> 
+        <div class="w-full md:w-1/3 text-slate-900 p-3">
+          <img src="./images/bw.png" alt="Cold Brew Beans" class="w-16 mb-4" rounded-lg">
+          <h4 class="font-bold">Brewing</h4>
+          <p class="text-sm"> Brewing Coffee adalah cara membuat atau menyeduh kopi yang dilakukan secara manual
+            atau tanpa penggunaan mesin espresso. Biasanya manual brew melibatkan kertas filter, suhu air, serta
+            kopi yang sudah jadi bubuk.</p>
+        </div>
+        <div class="w-full md:w-1/3 text-slate-900 p-3">
+          <img src="./images/bi.png" alt="Coffee Sachet" class="w-16 mb-4" rounded-lg">
+          <h4 class="font-bold">Sachet</h4>
+          <p class="text-sm">Sachet Coffee adalah kopi yang melewati serangkaian proses panjang hingga menjadi bubuk
+            instan. Namun, yang paling utama adalah proses drying yang terbagi menjadi spray-drying dan juga freeze-drying.
+         </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="border-b">
+    <div class="container mx-auto px-4 py-5 bg-gradient-to-r from-orange-600 to-orange-300">
+      <div class="flex flex-row flex-wrap">
+        <div class="w-1/2 md:w-1/4 text-slate-900 p-3">
+          <img src="./images/bc.jpg" alt="Coffee Beans" class="mb-3 rounded-lg">
+          <h4 class="font-bold">Black Coffe</h4>
+          <p class="text-sm">Kopi hitam berarti kopi dan air tanpa dicampur apa-apa. Tanpa gula,
+            tanpa susu, tanpa perasa. Namun ternyata banyak sekali jenis kopi hitam yang hadir
+            di menu kopi.</p>
+        </div>
+        <div class="w-1/2 md:w-1/4 text-slate-900 p-3">
+          <img src="./images/cp.jpg" alt="Coffee Beans" class="mb-3 rounded-lg">
+          <h4 class="font-bold">Coffe latte</h4>
+          <p class="text-sm">Caffé latte atau kopi latte ini merupakan salah satu jenis minuman 
+            kopi susu yang populer di samping Cappucino.</p>
+        </div>
+        <div class="w-1/2 md:w-1/4 text-slate-900 p-3">
+          <img src="./images/cf.jpg" alt="Coffee Beans" class="mb-3 rounded-lg">
+          <h4 class="font-bold">Cappuccino</h4>
+          <p class="text-sm">Cappuccino adalah secangkir kopi susu yang berasal dari Italia dan 
+            mulai hadir di Eropa dan Amerika sejak tahun 1980-an.</p>
+        </div>
+        <div class="w-1/2 md:w-1/4 text-slate-900 p-3">
+          <img src="./images/lv.jpg" alt="Coffee Beans" class="mb-3 rounded-lg">
+          <h4 class="font-bold">Red Velvet Latte</h4>
+          <p class="text-sm">Minuman kopi yang terdiri dari espresso, susu steamed, dan busa susu yang diletakkan di atasnya.</p>
+        </div>
+
+  </section>
+  <footer>
+    <p class="text-center text-xs py-2 text-slate-700">© 2023 Developer : Naufal Fawwaz | Politeknik LP3I Kampus Tasikmalaya</p>
+  </footer>
+</body>
+</html>
